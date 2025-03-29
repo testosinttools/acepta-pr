@@ -1,2 +1,2 @@
-# acepta-pr
+# Repo acepta-pr
 practicas de pr 
