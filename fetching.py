@@ -1,5 +1,16 @@
 import asyncio
 
+
+async def digits(n):
+    if n == 0:
+        yield n
+        return
+
+    while n > 0:
+        yield (n % 10)
+        n //= 10
+
+
 """
 Programa que intenta hacer cosas cool
 """
